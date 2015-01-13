@@ -474,10 +474,10 @@ Main Components
 		color: $color-4;
 		border-radius: 2px;
 		background-color: darken($color-1, 10%);
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 		text-indent: 0;
 		text-transform: uppercase;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 
 		.no-touch &:hover {
 			background-color: darken($color-1, 5%);

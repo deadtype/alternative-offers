@@ -21,7 +21,7 @@ body {
   color: #173d50; }
 
 a {
-  color: #e97d68;
+  color: #1dbc9b;
   text-decoration: none; }
 
 /* -------------------------------- 
@@ -131,7 +131,7 @@ Main Components
           /* hide gradient layer */
           display: none; }
         .cd-pricing-list > li.cd-popular {
-          box-shadow: inset 0 0 0 3px #e97d68, 0px 0px 19px rgba(51, 51, 51, 0.2); }
+          box-shadow: inset 0 0 0 3px #1dbc9b, 0px 0px 19px rgba(51, 51, 51, 0.2); }
         .cd-pricing-list > li.cd-popular::before {
           /* hide table separator for .cd-popular table */
           display: none; }
@@ -145,9 +145,9 @@ Main Components
           background: -webkit-linear-gradient( bottom , #3aa0d1, #3ad2d1);
           background: linear-gradient(to top, #3aa0d1, #3ad2d1); }
         .cd-secondary-theme .cd-pricing-list > li.cd-popular {
-          background: #e97d68;
-          background: -webkit-linear-gradient( bottom , #e97d68, #e99b68);
-          background: linear-gradient(to top, #e97d68, #e99b68);
+          background: #1dbc9b;
+          background: -webkit-linear-gradient( bottom , #1dbc9b, #1dda9b);
+          background: linear-gradient(to top, #1dbc9b, #1dda9b);
           box-shadow: none; }
       .cd-pricing-list:nth-of-type(1)::before {
         /* hide table separator for the first table */
@@ -183,7 +183,7 @@ Main Components
     font-size: .7em;
     margin-bottom: .7em; }
   .cd-popular .cd-pricing-header {
-    background-color: #e97d68; }
+    background-color: #1dbc9b; }
   @media only screen and (min-width: 768px) {
     .cd-pricing-header {
       height: auto;
@@ -193,7 +193,7 @@ Main Components
       color: #173d50;
       background-color: transparent; }
       .cd-popular .cd-pricing-header {
-        color: #e97d68;
+        color: #1dbc9b;
         background-color: transparent; }
       .cd-secondary-theme .cd-pricing-header {
         color: #FFFFFF; }
@@ -218,7 +218,7 @@ Main Components
   color: #8dc8e4;
   text-transform: uppercase; }
   .cd-popular .cd-duration {
-    color: #f3b6ab; }
+    color: #43e2c1; }
   .cd-duration::before {
     content: '/';
     margin-right: 2px; }
@@ -231,11 +231,11 @@ Main Components
   .cd-currency, .cd-duration {
     color: rgba(23, 61, 80, 0.4); }
     .cd-popular .cd-currency, .cd-popular .cd-duration {
-      color: #e97d68; }
+      color: #1dbc9b; }
     .cd-secondary-theme .cd-currency, .cd-secondary-theme .cd-duration {
       color: #2e80a7; }
     .cd-secondary-theme .cd-popular .cd-currency, .cd-secondary-theme .cd-popular .cd-duration {
-      color: #ba6453; }
+      color: #17967c; }
 
   .cd-currency {
     display: inline-block;
@@ -351,16 +351,16 @@ Main Components
       color: #FFFFFF;
       border-radius: 2px;
       background-color: #0c1f28;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       text-indent: 0;
       text-transform: uppercase;
-      letter-spacing: 2px; }
+      letter-spacing: 1px; }
       .no-touch .cd-select:hover {
         background-color: #112e3c; }
       .cd-popular .cd-select {
-        background-color: #e97d68; }
+        background-color: #1dbc9b; }
         .no-touch .cd-popular .cd-select:hover {
-          background-color: #ec907e; }
+          background-color: #20d2ad; }
       .cd-secondary-theme .cd-popular .cd-select {
         background-color: #0c1f28; }
         .no-touch .cd-secondary-theme .cd-popular .cd-select:hover {
